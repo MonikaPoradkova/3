@@ -38,9 +38,12 @@ image3.addEventListener("mouseleave", () => {
 })
 
 // Ověření e-mailu
+const username = document.querySelector(".fullName")
+const text = document.querySelector(".message")
 const email1 = document.querySelector(".email1")
 const email2 = document.querySelector(".email2")
 const paragraphText = document.querySelector(".result-text")
+const submit = document.querySelector("odeslat")
 
 email1.addEventListener("input", () => {
     const email1Value = email1.value
